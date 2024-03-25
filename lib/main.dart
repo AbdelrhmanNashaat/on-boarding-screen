@@ -35,14 +35,14 @@ class _MyAppState extends State<MyApp> {
               text1: 'Achieve Higher Goals',
               text2:
                   'By boosting your productivity we help\n you achieve higher goals',
-              textButton: 'Get Started',
+              textButton: 'Next',
               onTap: () {
                 _pageController.animateToPage(1,
                     duration: const Duration(milliseconds: 500),
                     curve: Curves.easeIn);
               },
               heigh: 56,
-              width: 165,
+              width: 114,
             ),
             MyView(
               image: 'assets/image/Saly-1.png',
@@ -62,14 +62,14 @@ class _MyAppState extends State<MyApp> {
               image: 'assets/image/Saly-13.png',
               text1: 'Work Seamlessly',
               text2: 'Get your work done seamlessly\n without interruption',
-              textButton: 'Next',
+              textButton: 'Get Started',
               onTap: () {
                 _pageController.animateToPage(0,
                     duration: const Duration(milliseconds: 500),
                     curve: Curves.easeIn);
               },
               heigh: 54,
-              width: 114,
+              width: 165,
             ),
           ],
         ),
